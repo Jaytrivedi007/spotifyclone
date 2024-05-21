@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #1db954;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.careers-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.careers-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.careers-intro h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.careers-intro p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    background-color: #1db954;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #169f40;
+}
+
+.job-openings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.job-card {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.job-card p {
+    font-size: 1.1em;
+    color: #666;
+}
+/* Add hover effects to job cards */
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Add specific hover effects for individual job cards */
+.job-card.software-engineer:hover {
+    background-color: #ffdfba; /* Example background color change */
+}
+
+.job-card.ux-designer:hover {
+    background-color: #aad1e6; /* Example background color change */
+}
+
+.job-card.content-curator:hover {
+    background-color: #bfeeb7; /* Example background color change */
+}
+/* Add hover effects to job cards */
+.job-card {
+    transition: transform 0.3s ease;
+}
+
+.job-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
